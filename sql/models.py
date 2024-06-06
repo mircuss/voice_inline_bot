@@ -14,3 +14,4 @@ class VoiceMessage(Base):
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)
     file_id: Mapped[str] = mapped_column()
     path: Mapped[str] = mapped_column()
+    name: Mapped[str] = mapped_column()
